@@ -2,6 +2,7 @@
 
 What is the largest prime factor of the number 600851475143 ?
 '''
+import math
 
 def largest_prime_factor(n):
 	# loop through nums up to n  and check if divisible
@@ -20,4 +21,5 @@ def primesSieve(limit):
 	return lst
 
 if __name__ == '__main__':
-	print largest_prime_factor(600851475143)
+#	print largest_prime_factor(600851475143)
+	print largest_prime_factor(13195)
